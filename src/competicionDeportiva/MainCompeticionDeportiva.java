@@ -15,7 +15,7 @@ public class MainCompeticionDeportiva {
 
 		do {
 
-			System.out.println("BIENVENIDO\n\n¿Qué desea hacer?\na. Empezar\nb. About\nc. Salir");
+			System.out.println("BIENVENIDO\n\n¿Qué desea hacer?\na. Empezar\nb. Info\nc. Salir");
 
 			sOption = miScan.nextLine();
 
@@ -23,9 +23,12 @@ public class MainCompeticionDeportiva {
 
 				do {
 
-					System.out.println("Elija la opción:\n\n" + "a. Proporcionar datos de la competición\n"
-							+ "b. Añadir un nuevo equipo\n" + "c. Eliminar un equipo existente\n"
-							+ "d. Buscar equipos de una localidad\n" + "e. Listar todos los equipos\n"
+					System.out.println("Elija la opción:\n\n" 
+							+ "a. Proporcionar datos de la competición\n"
+							+ "b. Añadir un nuevo equipo\n" 
+							+ "c. Eliminar un equipo existente\n"
+							+ "d. Buscar equipos de una localidad\n" 
+							+ "e. Listar todos los equipos\n"
 							+ "f. Dar de alta a un nuevo jugador en un equipo\n"
 							+ "g. Eliminar un jugador en un equipo\n"
 							+ "h. Cambiar estado/disponibilidad de un jugador de un equipo\n"
@@ -84,7 +87,7 @@ public class MainCompeticionDeportiva {
 
 							boolean disponible = false;
 
-							System.out.println("Introduzca el dni: ");
+							System.out.println("Introduzca el DNI: ");
 							String dni = miScan.nextLine();
 
 							System.out.println("Introduzca la disponibilidad: \na. Disponible\nb. No disponible");
